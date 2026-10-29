@@ -1,0 +1,160 @@
+{
+  "language": "es",
+  "person": {
+    "name": "Alex Ejemplo",
+    "headline": "Desarrollo de software",
+    "contacts": [
+      "Ciudad Ejemplo",
+      "alex@example.com",
+      "https://example.com"
+    ]
+  },
+  "blocks": [
+    {
+      "id": "profile",
+      "section": "Perfil profesional",
+      "title": "Desarrollo de software",
+      "meta": "",
+      "body": [
+        "Desarrolladora con experiencia en aplicaciones de escritorio, servicios web y herramientas internas. Trabajo desde la definición de requisitos hasta las pruebas y el mantenimiento, con atención a la claridad del código y la documentación."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "profile",
+      "protected": []
+    },
+    {
+      "id": "job1",
+      "section": "Experiencia profesional",
+      "title": "Desarrolladora de software",
+      "meta": "Laboratorio Ejemplo | 2023 - 2025",
+      "body": [
+        "Equipo ficticio dedicado a herramientas de gestión para pequeñas organizaciones."
+      ],
+      "bullets": [
+        "Desarrollo y mantenimiento de aplicaciones con Python y SQL para consultar y actualizar datos operativos.",
+        "Diseño de interfaces de escritorio y coordinación con las personas usuarias para revisar necesidades y comprobar cambios.",
+        "Pruebas de integración, resolución de incidencias y actualización de documentación técnica."
+      ],
+      "auxiliary": false,
+      "category": "experience",
+      "protected": [
+        "Python",
+        "SQL",
+        "2023",
+        "2025"
+      ]
+    },
+    {
+      "id": "job2",
+      "section": "",
+      "title": "Programadora en prácticas",
+      "meta": "Taller Demo | 2022 - 2023",
+      "body": [],
+      "bullets": [
+        "Colaboración en el mantenimiento de servicios HTTP y consultas SQL bajo supervisión del equipo.",
+        "Preparación de datos de prueba, reproducción de errores y documentación de los pasos para comprobar correcciones."
+      ],
+      "auxiliary": false,
+      "category": "experience",
+      "protected": []
+    },
+    {
+      "id": "edu1",
+      "section": "Formación",
+      "title": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
+      "meta": "Centro Ficticio | 2020 - 2022",
+      "body": [
+        "Formación en programación orientada a objetos, bases de datos relacionales, interfaces de usuario y acceso a servicios. Proyecto de fin de estudios centrado en una aplicación local de inventario."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "education",
+      "protected": []
+    },
+    {
+      "id": "edu2",
+      "section": "",
+      "title": "Formación complementaria",
+      "meta": "Aula Demo | 2024",
+      "body": [
+        "Curso práctico de pruebas de software y control de versiones. Ejercicios sobre pruebas de integración, documentación y revisión de cambios."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "education",
+      "protected": []
+    },
+    {
+      "id": "project1",
+      "section": "Proyectos personales",
+      "title": "Inventario Demo",
+      "meta": "2024 - 2025",
+      "body": [
+        "Aplicación personal de inventario con Python y SQLite. Permite registrar artículos y consultar existencias. La sincronización entre dispositivos está en desarrollo; todavía no está disponible."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "project",
+      "protected": [
+        "Inventario Demo",
+        "Python",
+        "SQLite",
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "id": "project2",
+      "section": "",
+      "title": "Cuaderno Local",
+      "meta": "2023",
+      "body": [
+        "Herramienta de notas guardadas en el equipo, con búsqueda por etiquetas y exportación de texto. Proyecto de aprendizaje para practicar separación de responsabilidades y pruebas de servicios."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "project",
+      "protected": []
+    },
+    {
+      "id": "skills",
+      "section": "Competencias",
+      "title": "Tecnologías y herramientas",
+      "meta": "",
+      "body": [
+        "Python, SQL, SQLite, Git. Desarrollo de escritorio, servicios HTTP, pruebas de integración y documentación."
+      ],
+      "bullets": [],
+      "auxiliary": true,
+      "category": "skills",
+      "protected": []
+    },
+    {
+      "id": "languages",
+      "section": "Idiomas",
+      "title": "Español e inglés",
+      "meta": "",
+      "body": [
+        "Español: lengua materna. Inglés: comprensión lectora B1, comprensión auditiva B1, escritura B1, expresión e interacción oral A2. Niveles declarados, sin certificación aportada."
+      ],
+      "bullets": [],
+      "auxiliary": true,
+      "category": "language",
+      "protected": []
+    },
+    {
+      "id": "other",
+      "section": "Información adicional",
+      "title": "Forma de trabajo",
+      "meta": "",
+      "body": [
+        "Interés por herramientas prácticas, código mantenible y aprendizaje continuo. Disponibilidad y condiciones de incorporación pendientes de acordar."
+      ],
+      "bullets": [],
+      "auxiliary": true,
+      "category": "other",
+      "protected": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Datos privados: NUNCA publicar originales ni exportaciones personales
+casos/
+entrada/
+salida/
+extraccion/
+diagnostico/
+historial/
+propuestas/
+# Artefactos Python / editores
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.vscode/
+.idea/
+# Temporales, PDFs personales y fotos fuera del ejemplo ficticio
+*.log
+.DS_Store

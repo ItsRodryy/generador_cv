@@ -1,0 +1,160 @@
+{
+  "language": "en",
+  "person": {
+    "name": "Alex Ejemplo",
+    "headline": "Software development",
+    "contacts": [
+      "Ciudad Ejemplo",
+      "alex@example.com",
+      "https://example.com"
+    ]
+  },
+  "blocks": [
+    {
+      "id": "profile",
+      "section": "Professional profile",
+      "title": "Software development",
+      "meta": "",
+      "body": [
+        "Software developer with experience in desktop applications, web services and internal tools. I work from requirements definition through testing and maintenance, with a focus on clear code and documentation."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "profile",
+      "protected": []
+    },
+    {
+      "id": "job1",
+      "section": "Professional experience",
+      "title": "Software developer",
+      "meta": "Laboratorio Ejemplo | 2023 - 2025",
+      "body": [
+        "Fictional team developing management tools for small organisations."
+      ],
+      "bullets": [
+        "Developed and maintained Python and SQL applications to query and update operational data.",
+        "Designed desktop interfaces and worked with users to review needs and check changes.",
+        "Performed integration testing, resolved issues and updated technical documentation."
+      ],
+      "auxiliary": false,
+      "category": "experience",
+      "protected": [
+        "Python",
+        "SQL",
+        "2023",
+        "2025"
+      ]
+    },
+    {
+      "id": "job2",
+      "section": "",
+      "title": "Software development intern",
+      "meta": "Taller Demo | 2022 - 2023",
+      "body": [],
+      "bullets": [
+        "Helped maintain HTTP services and SQL queries under team supervision.",
+        "Prepared test data, reproduced bugs and documented steps to check fixes."
+      ],
+      "auxiliary": false,
+      "category": "experience",
+      "protected": []
+    },
+    {
+      "id": "edu1",
+      "section": "Education",
+      "title": "Higher vocational qualification in Multiplatform Application Development",
+      "meta": "Centro Ficticio | 2020 - 2022",
+      "body": [
+        "Studied object-oriented programming, relational databases, user interfaces and service access. Final project focused on a local inventory application."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "education",
+      "protected": []
+    },
+    {
+      "id": "edu2",
+      "section": "",
+      "title": "Additional training",
+      "meta": "Aula Demo | 2024",
+      "body": [
+        "Practical course in software testing and version control, with exercises in integration testing, documentation and change review."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "education",
+      "protected": []
+    },
+    {
+      "id": "project1",
+      "section": "Personal projects",
+      "title": "Inventario Demo",
+      "meta": "2024 - 2025",
+      "body": [
+        "Personal inventory application built with Python and SQLite. It supports item registration and stock queries. Cross-device synchronisation is in development and is not yet available."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "project",
+      "protected": [
+        "Inventario Demo",
+        "Python",
+        "SQLite",
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "id": "project2",
+      "section": "",
+      "title": "Cuaderno Local",
+      "meta": "2023",
+      "body": [
+        "Local note-taking tool with tag-based search and text export. A learning project used to practise separation of responsibilities and service testing."
+      ],
+      "bullets": [],
+      "auxiliary": false,
+      "category": "project",
+      "protected": []
+    },
+    {
+      "id": "skills",
+      "section": "Skills",
+      "title": "Technologies and tools",
+      "meta": "",
+      "body": [
+        "Python, SQL, SQLite, Git. Desktop development, HTTP services, integration testing and documentation."
+      ],
+      "bullets": [],
+      "auxiliary": true,
+      "category": "skills",
+      "protected": []
+    },
+    {
+      "id": "languages",
+      "section": "Languages",
+      "title": "Spanish and English",
+      "meta": "",
+      "body": [
+        "Spanish: native language. English: reading B1, listening B1, writing B1, spoken production and interaction A2. Self-reported levels; no certificate provided."
+      ],
+      "bullets": [],
+      "auxiliary": true,
+      "category": "language",
+      "protected": []
+    },
+    {
+      "id": "other",
+      "section": "Additional information",
+      "title": "Working approach",
+      "meta": "",
+      "body": [
+        "Interested in practical tools, maintainable code and continuous learning. Availability and starting arrangements to be agreed."
+      ],
+      "bullets": [],
+      "auxiliary": true,
+      "category": "other",
+      "protected": []
+    }
+  ]
+}
