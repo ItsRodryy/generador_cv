@@ -1,0 +1,84 @@
+{
+    "schema_version":  2,
+    "template_version":  "2.4.0",
+    "proyecto":  {
+                     "nombre":  "Generador CV",
+                     "descripcion":  "Generador local de currículums ES/EN en DOCX y PDF, con plantilla minimalista_onda y revisión conversacional de Codex o Claude; no llama a proveedores de IA.",
+                     "autoria":  "Adrián Rodríguez Rodríguez (GitHub: ItsRodryy)",
+                     "plataformas":  [
+                                         "Windows 10/11",
+                                         "macOS/Linux (según README; sin verificar aquí)"
+                                     ],
+                     "tecnologias":  [
+                                         "Python 3.10+",
+                                         "python-docx",
+                                         "PyMuPDF",
+                                         "Pillow",
+                                         "LibreOffice o Word para PDF"
+                                     ],
+                     "verificacion":  [
+                                          "python -m unittest discover -s tests -p \u0027test_*.py\u0027 -v",
+                                          "python -m unittest discover -s tests -p \u0027integration.py\u0027 -v (requiere LibreOffice/Word y Lato)"
+                                      ],
+                     "reglas":  [
+                                    "No subir casos/, entrada/, .venv/, PDF, fotos ni documentos privados.",
+                                    "Repositorio público: sin datos personales en ai_workspace.",
+                                    "Antes de ayudar a crear un CV, leer contexto/asistente_cv.md; conserva el procedimiento completo anterior.",
+                                    "No inventar datos, fechas, métricas ni experiencia; validar hechos y traducción con la persona.",
+                                    "Una única plantilla inicial minimalista_onda; no resumir contenido para encajar ni publicar sin aprobación.",
+                                    "El software no tiene acceso autónomo a IA; no instalar dependencias ni modificar cuentas sin orden expresa."
+                                ],
+                     "intocables":  [
+                                        "casos/, entrada/, .venv/, PDF, fotos y documentos privados: no subirlos",
+                                        "Repositorio público: sin datos personales en ai_workspace"
+                                    ],
+                     "interfaz":  false
+                 },
+    "preferencias":  {
+                         "idioma":  "español",
+                         "modelo_y_esfuerzo":  "medio_alto",
+                         "avisos":  "frecuentes",
+                         "git":  "lectura_preguntar"
+                     },
+    "asistentes":  [
+                       "claude",
+                       "codex"
+                   ],
+    "graphify":  true,
+    "limites_kb":  {
+                       "AGENTS.md":  6,
+                       "ai_workspace/progreso.md":  6,
+                       "PLAN_ACTUAL.md":  10,
+                       "ai_workspace/ESTADO.md":  3,
+                       "ai_workspace/archivo/CHANGELOG.md":  6,
+                       "ai_workspace/contexto/":  8
+                   },
+    "contexto":  {
+                     "ai_workspace/contexto/asistente_cv.md":  {
+                                                                   "leer_si":  "ayudar a una persona a crear su CV"
+                                                               },
+                     "ai_workspace/contexto/asistente_claude.md":  {
+                                                                       "leer_si":  "consultar las instrucciones originales de Claude para el CV"
+                                                                   }
+                 },
+    "contenido_propio":  [
+
+                         ],
+    "extra":  "",
+    "exclusiones_backup":  [
+                               "casos",
+                               "entrada",
+                               ".venv",
+                               "venv",
+                               "salida",
+                               "extraccion",
+                               "diagnostico",
+                               "historial",
+                               "propuestas",
+                               "vista_demo",
+                               "build",
+                               "dist",
+                               "__pycache__",
+                               "graphify-out"
+                           ]
+}
